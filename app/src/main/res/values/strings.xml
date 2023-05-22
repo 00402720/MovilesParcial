@@ -2,4 +2,6 @@
     <string name="app_name">Theme Park Tracker</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_theme_park_name_text">sample_theme_park_name</string>
+    <string name="sample_theme_park_location_text">sample_theme_park_location</string>
 </resources>
