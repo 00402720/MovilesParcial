@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/themeParkListFragment">
+
+    <fragment
+        android:id="@+id/themeParkListFragment"
+        android:name="com.example.themeparktracker.ui.fragments.ThemeParkListFragment"
+        android:label="fragment_theme_park_list"
+        tools:layout="@layout/fragment_theme_park_list" >
+        <action
+            android:id="@+id/action_themeParkListFragment_to_themeParkInfoFragment"
+            app:destination="@id/themeParkInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/themeParkInfoFragment"
+        android:name="com.example.themeparktracker.ui.fragments.ThemeParkInfoFragment"
+        android:label="fragment_theme_park_info"
+        tools:layout="@layout/fragment_theme_park_info" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.themeparktracker.ui.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
